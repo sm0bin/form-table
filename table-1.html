@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-family: 'Arial';
+            width: 50%;
+            margin: auto;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            padding: 8px;
+
+
+        }
+
+        tr {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f2e8fc;
+        }
+
+        th {
+            padding: 12px 0;
+            text-align: left;
+            background-color: rgb(133, 83, 179);
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="/">Form</a></li>
+                <li><a style="color: #8553b3;" href="table-1.html">Table 1</a></li>
+                <li><a href="table-2.html">Table 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Table Tennis Tournament</h1>
+    <table>
+        <caption><b>Tournament Schedule and Results</b></caption>
+        <thead>
+            <th>Round 1</th>
+            <th>Player A</th>
+            <th>Player B</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Match 1</td>
+                <td>John</td>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td>Match 2</td>
+                <td>Mark</td>
+                <td>Sarah</td>
+            </tr>
+        </tbody>
+        <thead>
+            <th>Round 2</th>
+            <th>Player A</th>
+            <th>Player B</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Match 3</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td>Match 4</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </tbody>
+        <thead>
+            <th>Final</th>
+            <th>Winner of Match 3</th>
+            <th>Winner of Match 4</th>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Champions</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
